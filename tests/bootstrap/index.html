@@ -1,15 +1,15 @@
 <!doctype html>
-<html lang="ja">
+<html lang="zh-TW">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jpn.css - Optimize typography in Japanese</title>
-  <meta name="description" content="jpn.cssは、BootstrapなどCSSフレームワークを適用させた際、 日本語だと不格好に見えてしまう問題を解消するためのスタイルシートです。">
-  <meta name="author" content="kokushin">
+  <title>tw.css - 優化中文字體</title>
+  <meta name="description" content="從 jpn.css 改成對中文排版優化的 tw.css">
+  <meta name="author" content="hedula">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://kokushin.github.io/jpn.css/css/narrow-jumbotron.css">
+  <link rel="stylesheet" href="https://hedula.github.io/tw.css/css/narrow-jumbotron.css">
 
-  <link rel="stylesheet" href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css" id="jpncss">
+  <link rel="stylesheet" href="https://unpkg.com/tw.css@latest/dist/bootstrap/tw.min.css" id="twcss">
 
   <style>
     .box {
@@ -44,51 +44,50 @@
       <nav>
         <ul class="nav nav-pills float-right">
           <li class="nav-item">
-            <a class="nav-link active" href="https://github.com/kokushin/jpn.css" target="_blank">GitHub</a>
+            <a class="nav-link active" href="tw.css" target="_blank">GitHub</a>
           </li>
         </ul>
       </nav>
-      <h3 class="text-muted">jpn.css</h3>
+      <h3 class="text-muted">tw.css</h3>
     </div>
 
     <div class="jumbotron">
-      <h1 class="display-3">日本語に最適化</h1>
-      <p class="lead">jpn.cssは、BootstrapなどCSSフレームワークを適用させた際、<br>日本語だと不格好に見えてしまう問題を解消するためのスタイルシートです。</p>
-      <p><a class="btn btn-lg btn-success" href="https://github.com/kokushin/jpn.css/archive/master.zip" role="button">ダウンロード</a></p>
+      <h1 class="display-3">中文最優化</h1>
+      <p class="lead">tw.css，解決在 Bootstrap 框架中看起來不優的部分。</p>
+      <p><a class="btn btn-lg btn-success" href="#" role="button">下載</a></p>
     </div>
 
     <div class="row marketing">
       <div class="col-lg-6">
-        <h4>タイポグラフィを最適化</h4>
-        <p>日本語を美しく表示させます。画面下部にある<strong>「jpn.cssを無効にする」</strong>ボタンを押して比較してみてください。</p>
+        <h4>排版優化</h4>
+        <p>為展示中文文字優化。請按畫面下方<strong>「切換 tw.css」</strong>按鈕做比較</p>
 
-        <h4>モダンなフォント設定</h4>
-        <p>フォントには美しくデザインされた「游ゴシック」を採用しています。</p>
+        <h4>現代字體</h4>
+        <p>採用 Google 思源字體（Noto Sans）與微軟正黑體、</p>
       </div>
 
       <div class="col-lg-6">
-        <h4>Bootstrap4に対応</h4>
-        <p>最新バージョンであるBootstrap4に対応しています。今後のアップデートで、より多くのフレームワークに対応させる予定です。</p>
+        <h4>Bootstrap 4 對應</h4>
+        <p>支援最新 Bootstrap 4，未來將支援更多樣式框架</p>
 
-        <h4>最低限の調整</h4>
-        <p>タイポグラフィ周りだけ最適化されるので、他の要素への影響はありません。</p>
+        <h4>最低限度調整</h4>
+        <p>僅針對排版進行優化，因此不會對其他元素產生影響</p>
       </div>
     </div>
 
     <div class="box">
       <h2>使用方法</h2>
-      <p>jpn.cssを <code>&lt;head&gt;</code> 内で読み込ませてください。<br>フレームワークを利用している場合は、その後に読み込ませる必要があります。</p>
-      <pre><code class="html">&lt;link rel="stylesheet" href="https://unpkg.com/jpncss@latest/dist/bootstrap/jpn.min.css"&gt;</code></pre>
+      <p>在 <code>&lt;head&gt;</code> 加載 tw.css。<br>如果您使用的是框架，則需要稍後加載。</p>
+      <pre><code class="html">&lt;link rel="stylesheet" href="tw.css"&gt;</code></pre>
     </div>
 
     <div class="box">
-      <h2>ダウンロード</h2>
-      <p><a href="https://www.npmjs.com/package/jpn.css" target="_blank">npm</a> もしくは <a href="https://github.com/kokushin/jpn.css/archive/master.zip">GitHub</a> からダウンロードすることができます。</p>
-      <pre><code class="bash">$ npm install jpn.css -S</code></pre>
+      <h2>下載</h2>
+      <p>您可以從 <a href="#">GitHub</a> 中下載。</p>
     </div>
 
     <div class="box">
-      <h2>Bootstrapデモ</h2>
+      <h2>Bootstrap 示範</h2>
       <ul>
         <li><a href="./demo/bootstrap/jumbotron.html" target="_blank">Jumbotron</a></li>
         <li><a href="./demo/bootstrap/album.html" target="_blank">Album</a></li>
@@ -99,33 +98,33 @@
     </div>
 
     <footer class="footer">
-      <p>&copy; 2017 <a href="https://twitter.com/kokushing">@kokushing</a></p>
+      <p>&copy; 2019 <a href="https://hedula.com">@hedula</a></p>
     </footer>
 
   </div> <!-- /container -->
 
 
   <div class="fixed-footer-bar" id="demo-change-styles-bar">
-    <button class="btn btn-danger" id="demo-change-styles-btn">jpn.cssを無効にする</button>
+    <button class="btn btn-danger" id="demo-change-styles-btn">移除 tw.css</button>
   </div>
 
   <script>
     (function() {
-      var jpncss = document.getElementById('jpncss');
+      var twcss = document.getElementById('twcss');
       var changeStylesBar = document.getElementById('demo-change-styles-bar');
       var changeStylesBtn = document.getElementById('demo-change-styles-btn');
-      var jpncssFilePath = jpncss.getAttribute('href');
+      var twcssFilePath = twcss.getAttribute('href');
       var changeFlag = false;
 
       changeStylesBtn.addEventListener('click', function() {
         if (!changeFlag) {
-          jpncss.setAttribute('href', '');
-          changeStylesBtn.textContent = 'jpn.cssを有効にする';
+          twcss.setAttribute('href', '');
+          changeStylesBtn.textContent = '使用tw.css';
           changeStylesBtn.setAttribute('class', 'btn btn-success');
           changeFlag = true;
         } else {
-          jpncss.setAttribute('href', jpncssFilePath);
-          changeStylesBtn.textContent = 'jpn.cssを無効にする';
+          twcss.setAttribute('href', twcssFilePath);
+          changeStylesBtn.textContent = '移除 tw.css';
           changeStylesBtn.setAttribute('class', 'btn btn-danger');
           changeFlag = false;
         }
