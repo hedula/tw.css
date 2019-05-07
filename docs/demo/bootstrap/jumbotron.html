@@ -101,20 +101,20 @@
 
   <script>
     (function() {
-      var jpncss = document.getElementById('jpncss');
+      var twcss = document.getElementById('twcss');
       var changeStylesBar = document.getElementById('demo-change-styles-bar');
       var changeStylesBtn = document.getElementById('demo-change-styles-btn');
-      var jpncssFilePath = jpncss.getAttribute('href');
+      var twcssFilePath = twcss.getAttribute('href');
       var changeFlag = false;
 
       changeStylesBtn.addEventListener('click', function() {
         if (!changeFlag) {
-          jpncss.setAttribute('href', '');
+          twcss.setAttribute('href', '');
           changeStylesBtn.textContent = '切換 tw.css';
           changeStylesBtn.setAttribute('class', 'btn btn-success');
           changeFlag = true;
         } else {
-          jpncss.setAttribute('href', jpncssFilePath);
+          twcss.setAttribute('href', twcssFilePath);
           changeStylesBtn.textContent = '移除 tw.css';
           changeStylesBtn.setAttribute('class', 'btn btn-danger');
           changeFlag = false;
