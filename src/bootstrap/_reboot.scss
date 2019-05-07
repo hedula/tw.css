@@ -3,8 +3,16 @@
 //
 
 @font-face {
-  font-family: YuGothicMedium;
-  src: local("Yu Gothic Medium");
+  font-family: Heiti TC;
+  src: local(Heiti TC), local("Microsoft JhengHei");
+}
+
+/* 注音符號專用 */
+@font-face {
+  font-family:  Heiti TC;
+  unicode-range: U+3100-312F;     /* Bopomofo */
+  src: local(LiHei Pro),          /* OS X */
+       local("微軟正黑體"); /* Windows Vista+ */
 }
 
 @font-face {
@@ -19,23 +27,23 @@
   font-weight: 200;
 }
 
-html[lang=ja] {
+html[lang |= zh] {
   line-height: 1.15;
 }
 
-[lang=ja] body {
+[lang |= zh] body {
   font-family: $font-family-base;
   line-height: $line-height-base;
 
   // for IE10+
   @media all and (-ms-high-contrast: none)  {
     & {
-      font-family: Verdana, Meiryo, sans-serif;
+      font-family: Verdana, Heiti TC, sans-serif;
     }
   }
   @media all and (-ms-high-contrast: active) {
     & {
-      font-family: Verdana, Meiryo, sans-serif;
+      font-family: Verdana, Heiti TC, sans-serif;
     }
   }
 }
