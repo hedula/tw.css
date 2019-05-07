@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*! tw.css for Bootsrap4 | MIT License | Copyright 2019 @hedula */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,400,700&subset=chinese-traditional);
+@font-face{font-family:Heiti TC;src:local(Heiti TC),local("Microsoft JhengHei")}
+@font-face{font-family:Heiti TC;unicode-range:U+3100-312F;src:local(LiHei Pro),local("微軟正黑體")}
+@font-face{font-family:"Helvetica Neue";src:local("Helvetica Neue Regular");font-weight:100}
+@font-face{font-family:"Helvetica Neue";src:local("Helvetica Neue Regular");font-weight:200}
+html[lang|=zh]{line-height:1.15}
+[lang|=zh] body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans TC",Heiti TC,"微軟正黑體","Microsoft JhengHei",sans-serif;line-height:1.7}
+@media all and (-ms-high-contrast:none){
+[lang|=zh] body{font-family:Verdana,Heiti TC,sans-serif}
+}
+@media all and (-ms-high-contrast:active){
+[lang|=zh] body{font-family:Verdana,Heiti TC,sans-serif}
+}
+[lang|=zh] .h1,[lang|=zh] .h2,[lang|=zh] .h3,[lang|=zh] .h4,[lang|=zh] .h5,[lang|=zh] .h6,[lang|=zh] h1,[lang|=zh] h2,[lang|=zh] h3,[lang|=zh] h4,[lang|=zh] h5,[lang|=zh] h6{margin-bottom:.625rem;font-family:inherit;font-weight:700;line-height:1.4}
+[lang|=zh] .h1,[lang|=zh] h1{font-size:2.375rem}
+[lang|=zh] .h2,[lang|=zh] h2{font-size:1.875rem}
+[lang|=zh] .h3,[lang|=zh] h3{font-size:1.625rem}
+[lang|=zh] .h4,[lang|=zh] h4{font-size:1.375rem}
+[lang|=zh] .h5,[lang|=zh] h5{font-size:1.125rem}
+[lang|=zh] .h6,[lang|=zh] h6{font-size:.875rem}
+.lead{font-size:1.125rem}
+[lang|=zh] .display-1{font-size:5.75rem;font-weight:500;line-height:1.2}
+[lang|=zh] .display-2{font-size:5.25rem;font-weight:500;line-height:1.2}
+[lang|=zh] .display-3{font-size:4.25rem;font-weight:500;line-height:1.2}
+[lang|=zh] .display-4{font-size:3.25rem;font-weight:500;line-height:1.2}
+.blockquote{font-size:1.25rem}
+[lang|=zh] .btn-lg{font-size:1.125rem}
