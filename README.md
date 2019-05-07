@@ -1,61 +1,52 @@
-# jpn.css
+# tw.css
 
-Optimize typography in Japanese.
+Optimize typography in zh-TW.
 
-[https://kokushin.github.io/jpn.css/](https://kokushin.github.io/jpn.css/)
+[https://hedula.github.io/tw.css/](https://hedula.github.io/tw.css/)
 
-![jpn.css](https://raw.githubusercontent.com/kokushin/jpn.css/master/docs/img/jpncss.gif)
+![tw.css]()
 
-[![npm version](https://badge.fury.io/js/jpn.css.svg)](https://badge.fury.io/js/jpn.css)
-[![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/kokushin/jpn.css/master/LICENSE)
 
-## 特徴
 
-jpn.cssは、BootstrapなどCSSフレームワークを適用させた際、日本語だと不格好に見えてしまう問題を解消するためのスタイルシートです。
+## 特點
 
-**タイポグラフィを最適化**  
-画面下部にある「jpn.cssを無効にする」ボタンを押してみてください。最適化された結果を確認することができます。
+修改自 jpn.css，讓 bootstrap 支援中文字體。
 
-**Bootstrap4に対応**  
-最新バージョンであるBootstrap4に対応しています。今後のアップデートで、より多くのフレームワークに対応させる予定です。
+**排版優化**  
+為展示中文文字優化。請按畫面下方「切換 tw.css」按鈕做比較
 
-**モダンなフォント設定**  
-フォントには美しくデザインされた「游ゴシック」を採用しています。
+**Bootstrap 4 對應**  
+支援最新 Bootstrap 4，未來將支援更多樣式框架
 
-**最低限の調整**  
-タイポグラフィ周りだけ最適化されるので、他の要素への影響はありません。
+**黑體字體**  
+採用 Google 思源字體（Noto Sans）與微軟正黑體
+
+**最低限度調整**  
+僅針對排版進行優化，因此不會對其他元素產生影響
 
 ## 使用方法
 
-jpn.cssを `head` 内で読み込ませてください。フレームワークを利用している場合は、その後に読み込ませる必要があります。
+在 'head' 加載 tw.css。如果您使用的是框架，則需要稍後加載。
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css">
+<link rel="stylesheet" href="https://unpkg.com/tw.css@latest/dist/bootstrap/tw.min.css">
 ```
 
-## ダウンロード
+[Download ZIP](https://github.com/hedula/tw.css/archive/master.zip)
 
-npm もしくは GitHub からダウンロードすることができます。
+## Bootstrap 示範
 
-```bash
-$ npm install jpn.css -S
-```
-
-[Download ZIP](https://github.com/kokushin/jpn.css/archive/master.zip)
-
-## Bootstrapデモ
-
-- [Jumbotron](https://kokushin.github.io/jpn.css/demo/bootstrap/jumbotron.html)
-- [Album](https://kokushin.github.io/jpn.css/demo/bootstrap/album.html)
-- [Blog](https://kokushin.github.io/jpn.css/demo/bootstrap/blog.html)
-- [Carousel](https://kokushin.github.io/jpn.css/demo/bootstrap/carousel.html)
-- [Signin](https://kokushin.github.io/jpn.css/demo/bootstrap/signin.html)
+- [Jumbotron](https://hedula.github.io/tw.css/demo/bootstrap/jumbotron.html)
+- [Album](https://hedula.github.io/tw.css/demo/bootstrap/album.html)
+- [Blog](https://hedula.github.io/tw.css/demo/bootstrap/blog.html)
+- [Carousel](https://hedula.github.io/tw.css/demo/bootstrap/carousel.html)
+- [Signin](https://hedula.github.io/tw.css/demo/bootstrap/signin.html)
 
 ## Github
-[https://github.com/kokushin/jpn.css](https://github.com/kokushin/jpn.css)
+[https://github.com/hedula/tw.css](https://github.com/hedula/tw.css)
 
 ## Contributor
-[@kokushin](https://github.com/kokushin)
+[@hedula](https://github.com/hedula)
 
 ## License
-Code and documentation copyright 2017 by kokushin. Code released under the [MIT License](https://github.com/kokushin/jpn.css/blob/master/LICENSE).
+Code and documentation copyright 2019 by hedula. Code released under the [MIT License](https://github.com/hedula/tw.css/blob/master/LICENSE).
